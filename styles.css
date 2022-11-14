@@ -1,13 +1,13 @@
 body {
-    background-color:rgb(138, 203, 231);
+    background:rgb(138, 203, 231);
     font-family: Arial, Helvetica, sans-serif;
-   
+    text-align: center;
 }
 .assignment {
     display:flex;
     padding:10px;
     margin:10px;
-    background-color: white;
+    background: white;
     border: radius 10px;
 }
 
@@ -31,4 +31,7 @@ h1 hover {
 a {
     text-decoration:none;
     color:coral;
+}
+a:hover {
+    color: rgb(213, 103, 103);
 }
